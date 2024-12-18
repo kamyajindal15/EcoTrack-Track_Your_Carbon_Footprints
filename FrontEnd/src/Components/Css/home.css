@@ -1,0 +1,182 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: rgb(189, 227, 213);
+}
+
+.space
+{
+    height: 80px;
+    width: 100%;
+}
+
+.Login_Button
+{
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: right;
+    background-color: green;
+}
+
+.Login_Button:hover
+{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.Go_up
+{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    transition-duration: 0.3s;
+    background-image: url('../Image/Go_up_button.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.Go_up:hover
+{
+    opacity: 0.7;
+}
+
+.header
+{
+    text-align: center;
+    width: 50%;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+}
+
+
+.header > button
+{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition-duration: 0.3s;
+}
+
+.header > button:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+
+p
+{
+    font-size: medium;
+}
+
+.image
+{
+    background-image: url('../Image/nature.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec_2
+{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.sec_3
+{
+    margin-top: 55px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sec_3_flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec_3_flexboxs
+{
+    padding: 50px;
+    text-align: center;
+    height: 200px;
+    width: 350px;
+    border: 10px solid darkgreen;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.sec_3_flexboxs:hover
+{
+    margin-top: -10px;
+}
+
+.sec_4
+{
+    margin-top: 55px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sec_4_flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec_4_flexboxs
+{
+    padding: 50px;
+    text-align: center;
+    width: 350px;
+    border: 10px solid darkgreen;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    transition-duration: 0.3s;
+}
+
+
+
+
+.footer
+{
+    padding: 50px;
+    text-align: center;
+    height: 250px;
+    color: white;
+    background-color: rgb(30, 29, 29);
+}
+
+.footer_social
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_anc > div
+{
+    padding: 5px;
+}
+
+.footer > div > div:hover
+{
+    cursor: pointer;
+}

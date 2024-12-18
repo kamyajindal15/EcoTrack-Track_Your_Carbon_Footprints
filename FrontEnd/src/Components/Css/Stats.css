@@ -1,0 +1,44 @@
+.img_flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.img_1
+{
+    background-image: url("../Image/Stats_1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:450px;
+    width: 600px;
+}
+
+.img_2
+{
+    background-image: url("../Image/Stats_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height:450px;
+    width: 600px;
+}
+
+.img_3
+{
+    background-image: url("../Image/Stats_3.jpg");
+    background-size: cover;
+    background-position: center;
+    height:450px;
+    width: 600px;
+}
+
+.img_4
+{
+    background-image: url("../Image/Stats_4.jpg");
+    background-size: cover;
+    background-position: center;
+    height:450px;
+    width: 600px;
+}

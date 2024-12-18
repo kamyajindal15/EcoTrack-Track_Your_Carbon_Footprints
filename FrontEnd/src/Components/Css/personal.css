@@ -1,0 +1,142 @@
+
+/* personal.css */
+
+/* Container styles */
+.personal-container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+/* h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+} */
+
+/* Introduction paragraph styles */
+#intro p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Questionnaire styles */
+#questionnaire {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    margin-bottom: 30px;
+}
+
+.options {
+    margin-top: 10px;
+}
+
+.radio-options {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.1em;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Recommendations styles */
+#recommendations {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.1em;
+}
+
+/* Contact section styles */
+.contact-info {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+    font-style: italic;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .personal-container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    #questionnaire {
+        padding: 20px;
+    }
+    label {
+        font-size: 1em;
+    }
+    input[type="radio"] {
+        margin-right: 3px;
+    }
+    button {
+        padding: 10px 20px;
+    }
+}
+
+
